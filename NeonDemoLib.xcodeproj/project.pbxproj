@@ -11,6 +11,10 @@
 		14CB27162782F40800814E20 /* NeonDemoLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14CB270B2782F40800814E20 /* NeonDemoLib.framework */; };
 		14CB271B2782F40800814E20 /* NeonDemoLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CB271A2782F40800814E20 /* NeonDemoLibTests.swift */; };
 		14CB271C2782F40800814E20 /* NeonDemoLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 14CB270E2782F40800814E20 /* NeonDemoLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14CB272C2782F6BF00814E20 /* NeonDemoLibExamplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CB272B2782F6BF00814E20 /* NeonDemoLibExamplesApp.swift */; };
+		14CB272E2782F6BF00814E20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CB272D2782F6BF00814E20 /* ContentView.swift */; };
+		14CB27302782F6CA00814E20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14CB272F2782F6CA00814E20 /* Assets.xcassets */; };
+		14CB27332782F6CA00814E20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14CB27322782F6CA00814E20 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +33,11 @@
 		14CB270F2782F40800814E20 /* NeonDemoLib.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = NeonDemoLib.docc; sourceTree = "<group>"; };
 		14CB27152782F40800814E20 /* NeonDemoLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeonDemoLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14CB271A2782F40800814E20 /* NeonDemoLibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeonDemoLibTests.swift; sourceTree = "<group>"; };
+		14CB27292782F6BF00814E20 /* NeonDemoLibExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeonDemoLibExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14CB272B2782F6BF00814E20 /* NeonDemoLibExamplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeonDemoLibExamplesApp.swift; sourceTree = "<group>"; };
+		14CB272D2782F6BF00814E20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		14CB272F2782F6CA00814E20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14CB27322782F6CA00814E20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +56,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		14CB27262782F6BF00814E20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +71,7 @@
 			children = (
 				14CB270D2782F40800814E20 /* NeonDemoLib */,
 				14CB27192782F40800814E20 /* NeonDemoLibTests */,
+				14CB272A2782F6BF00814E20 /* NeonDemoLibExamples */,
 				14CB270C2782F40800814E20 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +81,7 @@
 			children = (
 				14CB270B2782F40800814E20 /* NeonDemoLib.framework */,
 				14CB27152782F40800814E20 /* NeonDemoLibTests.xctest */,
+				14CB27292782F6BF00814E20 /* NeonDemoLibExamples.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +101,25 @@
 				14CB271A2782F40800814E20 /* NeonDemoLibTests.swift */,
 			);
 			path = NeonDemoLibTests;
+			sourceTree = "<group>";
+		};
+		14CB272A2782F6BF00814E20 /* NeonDemoLibExamples */ = {
+			isa = PBXGroup;
+			children = (
+				14CB272B2782F6BF00814E20 /* NeonDemoLibExamplesApp.swift */,
+				14CB272D2782F6BF00814E20 /* ContentView.swift */,
+				14CB272F2782F6CA00814E20 /* Assets.xcassets */,
+				14CB27312782F6CA00814E20 /* Preview Content */,
+			);
+			path = NeonDemoLibExamples;
+			sourceTree = "<group>";
+		};
+		14CB27312782F6CA00814E20 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				14CB27322782F6CA00814E20 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +172,23 @@
 			productReference = 14CB27152782F40800814E20 /* NeonDemoLibTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		14CB27282782F6BF00814E20 /* NeonDemoLibExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14CB27342782F6CA00814E20 /* Build configuration list for PBXNativeTarget "NeonDemoLibExamples" */;
+			buildPhases = (
+				14CB27252782F6BF00814E20 /* Sources */,
+				14CB27262782F6BF00814E20 /* Frameworks */,
+				14CB27272782F6BF00814E20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeonDemoLibExamples;
+			productName = NeonDemoLibExamples;
+			productReference = 14CB27292782F6BF00814E20 /* NeonDemoLibExamples.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,6 +203,9 @@
 						CreatedOnToolsVersion = 13.0;
 					};
 					14CB27142782F40800814E20 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					14CB27282782F6BF00814E20 = {
 						CreatedOnToolsVersion = 13.0;
 					};
 				};
@@ -168,6 +225,7 @@
 			targets = (
 				14CB270A2782F40800814E20 /* NeonDemoLib */,
 				14CB27142782F40800814E20 /* NeonDemoLibTests */,
+				14CB27282782F6BF00814E20 /* NeonDemoLibExamples */,
 			);
 		};
 /* End PBXProject section */
@@ -187,6 +245,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		14CB27272782F6BF00814E20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14CB27332782F6CA00814E20 /* Preview Assets.xcassets in Resources */,
+				14CB27302782F6CA00814E20 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -203,6 +270,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				14CB271B2782F40800814E20 /* NeonDemoLibTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14CB27252782F6BF00814E20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14CB272E2782F6BF00814E20 /* ContentView.swift in Sources */,
+				14CB272C2782F6BF00814E20 /* NeonDemoLibExamplesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +513,66 @@
 			};
 			name = Release;
 		};
+		14CB27352782F6CA00814E20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NeonDemoLibExamples/Preview Content\"";
+				DEVELOPMENT_TEAM = 89F65JTX8Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.onelabs.NeonDemoLibExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14CB27362782F6CA00814E20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NeonDemoLibExamples/Preview Content\"";
+				DEVELOPMENT_TEAM = 89F65JTX8Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.onelabs.NeonDemoLibExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -463,6 +599,15 @@
 			buildConfigurations = (
 				14CB27232782F40800814E20 /* Debug */,
 				14CB27242782F40800814E20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14CB27342782F6CA00814E20 /* Build configuration list for PBXNativeTarget "NeonDemoLibExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14CB27352782F6CA00814E20 /* Debug */,
+				14CB27362782F6CA00814E20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
