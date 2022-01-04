@@ -1,0 +1,10 @@
+framework module NeonDemoLib {
+  umbrella header "NeonDemoLib.h"
+
+  export *
+  module * { export * }
+}
+
+module NeonDemoLib.__Swift {
+    exclude header "NeonDemoLib-Swift.h"
+}

@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/Aldo.Lazuardi/Kelola/NeonDemoLib/Build/Products/Debug-iphonesimulator/NeonDemoLib.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/Aldo.Lazuardi/Kelola/NeonDemoLib/Build/Intermediates.noindex/NeonDemoLib.build/Debug-iphonesimulator/NeonDemoLib.build/unextended-module.modulemap",
+    }]
+  }]
+}

@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+NeonDemoLib in NeonDemoLib, no dependencies
+NeonDemoLibTests in NeonDemoLib, depends on:
+NeonDemoLib in NeonDemoLib (explicit)

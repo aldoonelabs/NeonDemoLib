@@ -1,0 +1,11 @@
+framework module NeonDemoLib {
+  umbrella header "NeonDemoLib.h"
+
+  export *
+  module * { export * }
+}
+
+module NeonDemoLib.Swift {
+    header "NeonDemoLib-Swift.h"
+    requires objc
+}

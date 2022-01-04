@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)"
+options: "d3c81c9ecdfbc606033ab89e122a5375fa8ab0b2b576c2d62b3f20b53e1e346c"
+build_start_time: [1641282431, 280009031]
+build_end_time: [1641282435, 55994033]
+inputs:
+  "/Users/Aldo.Lazuardi/Kelola/NeonDemoLib/NeonDemoLib/String+Format.swift": [1641282202, 712629318]
