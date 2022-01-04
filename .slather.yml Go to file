@@ -1,0 +1,6 @@
+coverage_service: cobertura_xml
+xcodeproj: NeonDemoLib.xcodeproj
+scheme: NeonDemoLib
+output_directory: reports
+ignore:
+  - NeonDemoLibTests/*
