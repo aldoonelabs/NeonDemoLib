@@ -15,4 +15,10 @@ class StringFormatTest: XCTestCase {
         let expectedResult = "satu"
         XCTAssertEqual(inputText.getFirstWord(), expectedResult, "Wrong First Word!")
     }
+    
+    func testIsValidEmail() {
+        let inputText = "aldo.lazuardi@ocbcnisp.com"
+        let expectedResult = inputText.isValidEmail
+        XCTAssertTrue(expectedResult, "Wrong Not Email")
+    }
 }

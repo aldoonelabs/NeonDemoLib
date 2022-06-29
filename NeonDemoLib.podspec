@@ -12,7 +12,7 @@ This CocoaPods library helps you perform calculation.
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author       = { "aldoonelabs" => "aldo.onelabs@gmail.com" }
 
-  spec.ios.deployment_target = "13.1"
+  spec.ios.deployment_target = "13.0"
   spec.swift_version = "5.0"
 
   spec.source        = { :git => "https://github.com/aldoonelabs/NeonDemoLib.git", :tag => "#{spec.version}" }
